@@ -1,1 +1,47 @@
 # HamOS
+
+HamOS is a Operating system that allows users to navigate and run programs.
+The application features a user-friendly interface.
+
+## New Features
+
+- Added the HamCode.
+- Addded support for `.Ham` executable files.
+- Added variable assignment and print statements execution from `.Ham` files.
+
+## Commands
+
+HamOS supports the following commands in `.Ham` files:
+
+- `VarName == Value`: Creates an integer variable with the given name and value. Variable names can only be a single letter (e.g., `A == 10`).
+- `printVar(VarName)`: Prints the value of the specified variable (e.g., `printVar(A)`).
+- `printStr("string")`: Prints the specified string to the console (e.g., `printStr("Hello, HamOS!")`).
+- `Func([funcname]) {}`: Defines a function with the given name. (Note: Function implementation is a placeholder in this example and can be customized).
+- `Run [funcname]`: Runs the specified function.
+- `?Math [number/var] [+/-] [number/var] == [Var]`: Performs a mathematical operation (addition or subtraction) and stores the result in the specified variable.
+- `if ([Var/number] == [Var/number]) {}`: Conditional statement to execute code if the condition is true.
+- `else {}`: Conditional statement to execute code if the `if` condition is false.
+- `kill()`: Terminates the program.
+- `checkKey([keyboardKey]) {}`: Checks if the specified key is pressed (Note: Implementation is a placeholder and can be customized).
+- `loop([times]) {}`: Loops the code inside the block a specified number of times.
+- `loopInf {}`: Loops the code inside the block infinitely.
+
+## Installation
+
+You can download the latest versions here:
+
+Legacy Edition:
+
+[![HamOS Lagacy Edition](https://img.shields.io/badge/download-HamOS%20Executable-brightgreen)](https://HamGroup.github.io/HamOS/HamOSLE.zip)
+
+Developer Package:
+
+[![HamOS Developer's Edition](https://img.shields.io/badge/download-HamOS%20Executable-brightgreen)](https://HamGroup.github.io/HamOS/HamOSDE.zip)
+
+## Example `.Ham` File
+
+```Ham
+A == 10
+printVar(A)
+printStr("Hello, HamOS!")
+```
