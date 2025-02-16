@@ -5,7 +5,7 @@ The application features a user-friendly interface.
 
 ## New Features
 
-- Added the HamCode.
+- Added `wait()` , `printMulti{}` and string varibles (`AA == Hello`)
 - Addded support for `.Ham` executable files.
 - Added variable assignment and print statements execution from `.Ham` files.
 
@@ -25,6 +25,7 @@ HamOS supports the following commands in `.Ham` files:
 - `checkKey([keyboardKey]) {}`: Checks if the specified key is pressed (Note: Implementation is a placeholder and can be customized).
 - `loop([times]) {}`: Loops the code inside the block a specified number of times.
 - `loopInf {}`: Loops the code inside the block infinitely.
+- `wait()`: Waits for the amount of time(seconds) in the parenthesis
 
 ## Installation
 
@@ -32,11 +33,11 @@ You can download the latest versions here:
 
 Legacy Edition:
 
-[![HamOS Lagacy Edition](https://img.shields.io/badge/download-HamOS%20Executable-brightgreen)](https://HamGroup.github.io/HamOS/HamOSLE.zip)
+[![HamOS Lagacy Edition](https://img.shields.io/badge/Download-HamOSLE%20Executable-brightgreen)](https://HamGroup.github.io/HamOS/HamOSLE.zip)
 
-Developer Package:
+Developer's Package:
 
-[![HamOS Developer's Edition](https://img.shields.io/badge/download-HamOS%20Executable-brightgreen)](https://HamGroup.github.io/HamOS/HamOSDE.zip)
+[![HamOS Developer's Edition](https://img.shields.io/badge/Download-HamOSDE%20Executable-brightgreen)](https://HamGroup.github.io/HamOS/HamOSDE.zip)
 
 ## Example `.Ham` File
 
