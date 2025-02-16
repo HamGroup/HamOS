@@ -6,9 +6,7 @@ The application features a user-friendly interface.
 ## New Features
 
 - Added `wait()` , `printMulti{}` and string varibles (`AA == Hello`)
-- Addded support for `.Ham` executable files.
-- Added variable assignment and print statements execution from `.Ham` files.
-
+- Bug fixes
 ## Commands
 
 HamOS supports the following commands in `.Ham` files:
