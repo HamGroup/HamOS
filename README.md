@@ -35,7 +35,7 @@ Legacy Edition:
 
 Developer's Package:
 
-[![HamOS Developer's Edition](https://img.shields.io/badge/Download-HamOSDE%20Executable-brightgreen)](https://HamGroup.github.io/HamOS/HamOSDE.zip)
+- Not avalible at the momment
 
 ## Example `.Ham` File
 
